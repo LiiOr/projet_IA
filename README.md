@@ -6,6 +6,9 @@ Lien vers le modele de l'app ionic de gallery photo:
 https://github.com/ionic-team/tutorial-photo-gallery-angular
 >>>>>>> 6f860fa911a69a63b0941c474c5cffe04e2c1cc4
 
+Lien vers l'API Marmiton : 
+https://www.npmjs.com/package/marmiton-api
+
 ## Pour lancer sur Android :
 
 Commandes a executer dans la racine du projet : 
