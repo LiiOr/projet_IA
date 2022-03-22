@@ -6,6 +6,25 @@ Lien vers le modele de l'app ionic de gallery photo:
 https://github.com/ionic-team/tutorial-photo-gallery-angular
 >>>>>>> 6f860fa911a69a63b0941c474c5cffe04e2c1cc4
 
+## Pour lancer sur Android :
+
+Commandes a executer dans la racine du projet : 
+
+- ionic build
+- ionic cap copy
+- ionic cap sync
+
+Android development : 
+- ionic cap open android
+
+Cela ouvre Android Studio et il faut s'assurer que dans le manifest inclu ces 2 lignes :
+
+< uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE />
+
+< uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE />
+
+Et il n'y a plus qu'a lancé l'application sur un téléphone
+
 ---------------------------
 
 
