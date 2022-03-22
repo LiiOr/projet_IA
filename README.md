@@ -1,3 +1,14 @@
+# projet_IA
+Projet Intelligence Artificielle pour le cours de techno web - IUT Lannion
+https://huggingface.co/facebook/detr-resnet-101-dc5
+
+Lien vers le modele de l'app ionic de gallery photo:
+https://github.com/ionic-team/tutorial-photo-gallery-angular
+>>>>>>> 6f860fa911a69a63b0941c474c5cffe04e2c1cc4
+
+---------------------------
+
+
 # Build Your First Ionic App: Photo Gallery (Ionic Angular and Capacitor)
 
 Get started with Ionic by building a photo gallery app that runs on iOS, Android, and the web - with just one codebase. This is the complete project referenced in the ["Your First App: Angular" guide](https://ionicframework.com/docs/angular/your-first-app). Follow along to create a complete CRUD (create-read-update-delete) experience.
