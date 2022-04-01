@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+     Poulet Recipe
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <!--  <ion-searchbar [(ngModel)]="searchIngredient" debounce="100"></ion-searchbar>
+  <ion-buttons slot="end">
+    <ion-button color="light" (click)="searchRecipe()">
+      <ion-icon name="search-sharp"></ion-icon>
+    </ion-button>
+  </ion-buttons> -->
+
+  <ion-list >
+    <ion-item *ngFor='let recipe of ingredientsRecipe' button (click)="goToRecipeDetails()">
+      <ion-thumbnail slot="start">
+        <img src="{{ recipe.image }}">
+      </ion-thumbnail>
+      <ion-label>
+        <h3>{{ recipe.title }}</h3>
+        <h4>Ingrédients manquants : {{ recipe.missedIngredientCount }}</h4>
+        <h5>{{ recipe.missedIngredients.name }}</h5>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+
+</ion-content>
