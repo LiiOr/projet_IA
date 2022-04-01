@@ -16,16 +16,7 @@
   </ion-buttons> -->
 
   <ion-list >
-    <ion-item *ngFor='let recipe of ingredientsRecipe' button (click)="goToRecipeDetails()">
-      <ion-thumbnail slot="start">
-        <img src="{{ recipe.image }}">
-      </ion-thumbnail>
-      <ion-label>
-        <h3>{{ recipe.title }}</h3>
-        <h4>Ingrédients manquants : {{ recipe.missedIngredientCount }}</h4>
-        <h5>{{ recipe.missedIngredients.name }}</h5>
-      </ion-label>
-    </ion-item>
+    
   </ion-list>
 
 </ion-content>
